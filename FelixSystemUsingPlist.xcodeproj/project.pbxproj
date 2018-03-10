@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639165031FF4CA8900885687 /* NextPageStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 639165021FF4CA8900885687 /* NextPageStudent.m */; };
+		639165061FF4CAA500885687 /* NextPageTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 639165051FF4CAA500885687 /* NextPageTeacher.m */; };
+		CF6081681FF234950028C1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6081671FF234950028C1B9 /* main.m */; };
+		CF60816B1FF234950028C1B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60816A1FF234950028C1B9 /* AppDelegate.m */; };
+		CF60816E1FF234950028C1B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60816D1FF234950028C1B9 /* ViewController.m */; };
+		CF6081711FF234950028C1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60816F1FF234950028C1B9 /* Main.storyboard */; };
+		CF6081731FF234960028C1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6081721FF234960028C1B9 /* Assets.xcassets */; };
+		CF6081761FF234960028C1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6081741FF234960028C1B9 /* LaunchScreen.storyboard */; };
+		CF60817F1FF239820028C1B9 /* ForStudentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60817E1FF239820028C1B9 /* ForStudentViewCell.m */; };
+		CF6081821FF2399D0028C1B9 /* ForTeacherViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6081811FF2399D0028C1B9 /* ForTeacherViewCell.m */; };
+		CF6081851FF239CD0028C1B9 /* TeacherUseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6081841FF239CD0028C1B9 /* TeacherUseController.m */; };
+		CF6081881FF239E90028C1B9 /* StudentUseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6081871FF239E90028C1B9 /* StudentUseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		639165011FF4CA8900885687 /* NextPageStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageStudent.h; sourceTree = "<group>"; };
+		639165021FF4CA8900885687 /* NextPageStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageStudent.m; sourceTree = "<group>"; };
+		639165041FF4CAA500885687 /* NextPageTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextPageTeacher.h; sourceTree = "<group>"; };
+		639165051FF4CAA500885687 /* NextPageTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextPageTeacher.m; sourceTree = "<group>"; };
+		CF6081631FF234950028C1B9 /* FelixSystemUsingPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelixSystemUsingPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6081671FF234950028C1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6081691FF234950028C1B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF60816A1FF234950028C1B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF60816C1FF234950028C1B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF60816D1FF234950028C1B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF6081701FF234950028C1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF6081721FF234960028C1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF6081751FF234960028C1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF6081771FF234960028C1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60817D1FF239820028C1B9 /* ForStudentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForStudentViewCell.h; sourceTree = "<group>"; };
+		CF60817E1FF239820028C1B9 /* ForStudentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForStudentViewCell.m; sourceTree = "<group>"; };
+		CF6081801FF2399D0028C1B9 /* ForTeacherViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForTeacherViewCell.h; sourceTree = "<group>"; };
+		CF6081811FF2399D0028C1B9 /* ForTeacherViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForTeacherViewCell.m; sourceTree = "<group>"; };
+		CF6081831FF239CD0028C1B9 /* TeacherUseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUseController.h; sourceTree = "<group>"; };
+		CF6081841FF239CD0028C1B9 /* TeacherUseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUseController.m; sourceTree = "<group>"; };
+		CF6081861FF239E90028C1B9 /* StudentUseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUseController.h; sourceTree = "<group>"; };
+		CF6081871FF239E90028C1B9 /* StudentUseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6081601FF234950028C1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF60815A1FF234950028C1B9 = {
+			isa = PBXGroup;
+			children = (
+				CF6081651FF234950028C1B9 /* FelixSystemUsingPlist */,
+				CF6081641FF234950028C1B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6081641FF234950028C1B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6081631FF234950028C1B9 /* FelixSystemUsingPlist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6081651FF234950028C1B9 /* FelixSystemUsingPlist */ = {
+			isa = PBXGroup;
+			children = (
+				CF6081691FF234950028C1B9 /* AppDelegate.h */,
+				CF60816A1FF234950028C1B9 /* AppDelegate.m */,
+				CF60816C1FF234950028C1B9 /* ViewController.h */,
+				CF60816D1FF234950028C1B9 /* ViewController.m */,
+				CF60816F1FF234950028C1B9 /* Main.storyboard */,
+				639165041FF4CAA500885687 /* NextPageTeacher.h */,
+				639165051FF4CAA500885687 /* NextPageTeacher.m */,
+				CF6081861FF239E90028C1B9 /* StudentUseController.h */,
+				CF6081871FF239E90028C1B9 /* StudentUseController.m */,
+				639165011FF4CA8900885687 /* NextPageStudent.h */,
+				639165021FF4CA8900885687 /* NextPageStudent.m */,
+				CF6081831FF239CD0028C1B9 /* TeacherUseController.h */,
+				CF6081841FF239CD0028C1B9 /* TeacherUseController.m */,
+				CF6081801FF2399D0028C1B9 /* ForTeacherViewCell.h */,
+				CF6081811FF2399D0028C1B9 /* ForTeacherViewCell.m */,
+				CF60817D1FF239820028C1B9 /* ForStudentViewCell.h */,
+				CF60817E1FF239820028C1B9 /* ForStudentViewCell.m */,
+				CF6081721FF234960028C1B9 /* Assets.xcassets */,
+				CF6081741FF234960028C1B9 /* LaunchScreen.storyboard */,
+				CF6081771FF234960028C1B9 /* Info.plist */,
+				CF6081661FF234950028C1B9 /* Supporting Files */,
+			);
+			path = FelixSystemUsingPlist;
+			sourceTree = "<group>";
+		};
+		CF6081661FF234950028C1B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6081671FF234950028C1B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6081621FF234950028C1B9 /* FelixSystemUsingPlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60817A1FF234960028C1B9 /* Build configuration list for PBXNativeTarget "FelixSystemUsingPlist" */;
+			buildPhases = (
+				CF60815F1FF234950028C1B9 /* Sources */,
+				CF6081601FF234950028C1B9 /* Frameworks */,
+				CF6081611FF234950028C1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FelixSystemUsingPlist;
+			productName = FelixSystemUsingPlist;
+			productReference = CF6081631FF234950028C1B9 /* FelixSystemUsingPlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF60815B1FF234950028C1B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					CF6081621FF234950028C1B9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF60815E1FF234950028C1B9 /* Build configuration list for PBXProject "FelixSystemUsingPlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF60815A1FF234950028C1B9;
+			productRefGroup = CF6081641FF234950028C1B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6081621FF234950028C1B9 /* FelixSystemUsingPlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6081611FF234950028C1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6081761FF234960028C1B9 /* LaunchScreen.storyboard in Resources */,
+				CF6081731FF234960028C1B9 /* Assets.xcassets in Resources */,
+				CF6081711FF234950028C1B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF60815F1FF234950028C1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60817F1FF239820028C1B9 /* ForStudentViewCell.m in Sources */,
+				CF60816E1FF234950028C1B9 /* ViewController.m in Sources */,
+				CF6081851FF239CD0028C1B9 /* TeacherUseController.m in Sources */,
+				CF60816B1FF234950028C1B9 /* AppDelegate.m in Sources */,
+				639165061FF4CAA500885687 /* NextPageTeacher.m in Sources */,
+				CF6081681FF234950028C1B9 /* main.m in Sources */,
+				CF6081881FF239E90028C1B9 /* StudentUseController.m in Sources */,
+				CF6081821FF2399D0028C1B9 /* ForTeacherViewCell.m in Sources */,
+				639165031FF4CA8900885687 /* NextPageStudent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF60816F1FF234950028C1B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6081701FF234950028C1B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF6081741FF234960028C1B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6081751FF234960028C1B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF6081781FF234960028C1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF6081791FF234960028C1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF60817B1FF234960028C1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FelixSystemUsingPlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Deluxe.FelixSystemUsingPlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF60817C1FF234960028C1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FelixSystemUsingPlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Deluxe.FelixSystemUsingPlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF60815E1FF234950028C1B9 /* Build configuration list for PBXProject "FelixSystemUsingPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6081781FF234960028C1B9 /* Debug */,
+				CF6081791FF234960028C1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60817A1FF234960028C1B9 /* Build configuration list for PBXNativeTarget "FelixSystemUsingPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60817B1FF234960028C1B9 /* Debug */,
+				CF60817C1FF234960028C1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF60815B1FF234950028C1B9 /* Project object */;
+}
